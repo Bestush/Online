@@ -21,3 +21,18 @@ body {
     from{}
     to{transform: rotate(360deg);}
 }
+
+
+#circle {
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(108, 43, 121);
+    border-radius: .5rem;
+    animation: myAnimation2 2s ease-in-out  infinite;
+}
+
+
+@keyframes myAnimation2 {
+    from{}
+    to{transform: rotate(360deg);}
+}
